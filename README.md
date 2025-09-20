@@ -1,10 +1,11 @@
-# cfb-landing
+# CFB Landing
 
-Marketing site for CFB Fantasy.
+Marketing landing for CFB Fantasy.
 
-## Deploy
-- Vercel project: cfb-landing
-- Domain: cfbfantasy.app
+- Framework: Next.js 15 (App Router)
+- Start dev: `npm run dev`
+- Build: `npm run build`
+- Start prod: `npm run start`
+- Node: >=18
 
-## Notes
-- No secrets. Static video in public/videos.
+Deploy via Vercel. Environment variables are not required for the minimal video page.
